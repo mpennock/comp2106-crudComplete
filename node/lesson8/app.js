@@ -38,11 +38,11 @@ db.once('open', function(callback) {
   console.log('Connected to mongodb');
 });
 
-// connect to local instance directly 
+// connect to local instance directly
 // mongoose.connect('mongodb://localhost/test');
 
 // connect to mlab instance directly
-// mongoose.connect('mongodb://mpennock:gambit@ds058508.mlab.com:58508/comp2106');
+// mongoose.connect('mongodb://gcrfreeman:2106pass@ds056288.mlab.com:56288/comp2106');
 
 // read db connection string from our config file
 var configDb = require('./config/db.js');
